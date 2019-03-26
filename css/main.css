@@ -1,0 +1,180 @@
+body {
+	background-color: white;
+}
+
+.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+.divStick {
+	height: 20px;
+	width: 10px;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-right: solid 3px black;
+}
+
+#mainHeader {
+	width: auto;
+	height: 78px;
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 67px;
+	height: 67px;
+	background-color: black;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.nav {
+	width: 106px;
+	height: 22px;
+	background-color: black;
+	margin-top: 28px;
+}
+
+#hamburger
+{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#hero {
+	width: auto;
+	background-color: black;
+	height: 154px;
+}
+
+#hero h2 {
+	width: 171px;
+	height: 20px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+.mainTitle {
+	margin: 0 auto;
+	width: 233px;
+	height: 30px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+
+#news {
+	background-color: gray;
+	height: 100px;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.subTitle {
+	background-color: gray;
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 100px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+.learnMore {
+	margin: 0 auto;
+	background-color: black;
+	width: 140px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.comingImg {
+	width: 155px;
+	height: 115px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#getInvolved {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: auto;
+	height: 115px;
+	border-bottom: solid 3px black;
+	margin-bottom: 20px;
+}
+
+.icons {
+	width: 75px;
+	height: 75px;
+	background-color: black;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#majorSponsors {
+	margin: 0 auto;
+	width: auto;
+	height: 145px;
+}
+
+#sponsorRow1 {
+	width: auto;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#sponsorRow2 {
+	width: auto;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.sponsorLogo {
+	width: 80px;
+	height: 25px;
+	background-color: black;
+}
+
+#mainFooter {
+	width: auto;
+	height: 78px;
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#facebook {
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+
+}
+
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+	
+}
