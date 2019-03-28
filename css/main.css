@@ -202,19 +202,164 @@ body {
 /*tablet*/
 @media screen and (min-width: 768px) {
 
+#mainHeader {
+	width: auto;
+	height: 185px;
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.logo
+{
+	width: 141px;
+	height: 141px;
+	background-color: black;
+	margin-left: 30px;
+	margin-top: 10px;
+
+}
+
+.nav {
+	display:none;
+	}
+
+#hamburger
+{
+	display:none;
+}
+
+#desktopNavigation
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 70px;
+	margin-right: 60px;
+
+}
+
+.desktopNav
+{
+	width: 87px;
+	height: 29px;
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 15px;
+	margin-left: 0;
+	
+	
+}
+#memberBut
+{
+	width: 140px;
+	height: 32px;
+	background-color: black;
+	display:block;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-right: 80px;
+}
+
+#navigation
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+
+}
+
+#hero
+{
+	height: 347px;
+	width: auto;	
+}
+
+
+.mainTitle
+{
+	width: 437px;
+	height: 52px;
+}
+
+#news
+{
+	width: 597px;
+	height: 182px;
+}
+
+.subTitle
+{
+	width: 214px;
+	height: 37px;
+}
+
+.learnMore
+{
+	width: 292px;
+	height: 44px;
+}
+
+.comingImg
+{
+	width: 325px;
+	height: 238px;
+}
+
+.icons 
+{
+	width: 153px;
+	height: 153px;
+}
+
+#majorSponsors {
+	margin: 0 auto;
+	width: auto;
+	height: 200px;
+}
+
+.sponsorLogo
+{
+	width: 155px;
+	height: 50px;
+}
+
+#getInvolved {
+	width: auto;
+	height: 200px;
+}
+
+.sponsorRow1
+{
+	justify-content: space-around;
+}
+
+.sponsorRow2 {
+	justify-content: space-evenly;
+	margin-top: 40px;
+}
+
+#mainFooter {
+	width: auto;
+	height: 153px;
+}
+
+#facebook
+{
+	width: 55px;
+	height: 55px;
+	margin-top: 40px;
+}
 }
 
 
 /*desktop*/
 @media screen and (min-width: 1200px) {
 
-
-
-
-
 #mainHeader {
 	width: auto;
-	height: 185px;
+	height: 200px;
 	background-color: gray;
 	display: flex;
 	flex-direction: row;
